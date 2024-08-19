@@ -1,0 +1,17 @@
+#include <iostream>
+#include <string>
+#include <vector>
+ 
+using namespace std;
+ 
+int main() {
+ 
+  string s;
+  cin >> s;
+  string p = "";
+  p += toupper(s[0]);
+  p += s.substr(1,s.size()-1); 
+ 
+  cout << p << endl;
+}
+ 
